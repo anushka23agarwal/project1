@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    font-family: 'Khand', sans-serif;
+}
+
+.page-one{
+    height: 100vh;
+    background-color: #FF005A;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.middle-one{
+    color: white;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.get-ticket{
+    margin-top: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+
+.page-two{
+    
+    background-color: #0D0D59;
+    height: 100vh;
+    color: #52FFFF;
+    padding-left: 180px;
+    padding-top: 100px;
+    
+}
+
+.ticket-options{
+
+    background-color: #0D0D59;
+    height: 80vh;
+    color: #52FFFF;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ticket-option{
+    background-color: #0D0D59;
+    display: flex;
+    color: #52FFFF;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+select{
+    margin-top: 15px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+ select option{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 15px;
+    background-color: #0D0D59;
+}
+
+footer{
+
+    background-color: #F2F2F2;
+    height: 10vh;
+    color: #999999;
+}
+
+
+.latest{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.icons {
+    margin-top: 15px;
+    display: flex;
+    margin-right: 10px; /* Add margin to the right of the icons for spacing */
+}
+
+.para{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.zero{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.total{
+    margin-top: 20px;
+    margin-left: 670px;
+    width: 300px;
+    text-align: center;
+    color: #52FFFF;
+    font-size: 25px;
+}
+
+
+.checkout{
+background-color: transparent;
+    color: #ffffff;
+    width: 200px;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
